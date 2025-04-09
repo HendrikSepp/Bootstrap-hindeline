@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <style>
+      .content-section {
+        display: none;
+      }
+      .content-section:target {
+        display: block;
+      }
+      h5 {
+        color: gray;
+      }
+    </style>
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body fixed-top">
+      <div class="container-fluid">
+        <button
+          data-mdb-collapse-init
+          class="navbar-toggler"
+          type="button"
+          data-mdb-target="#navbar01"
+          aria-controls="navbar01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/products.html">Products</a>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+<body>
+  <br>  
+  <div class="list-group my-5">
+      <a href="#first" class="list-group-item list-group-item-action">08.04.25 - What to expect in the future</a>
+      <a href="#second" class="list-group-item list-group-item-action">22.03.25 - Stock issues should be resolved</a>
+      <a href="#third" class="list-group-item list-group-item-action">28.02.25 - We have launched!</a>
+    </div>
+    <br><br>
+    <div id="first" class="content-section mx-5">
+      <h2>What to expect in the future</h2>
+      <h5>08.04.25</h5>
+      <p>The future is bright! New products! New prices! New synergies!</p>
+        <p></p>Keep an eye on our page to be the first to get the new deals!</p>
+    </div>
+    
+    <div id="second" class="content-section mx-5">
+      <h2>Stock issues should be resolved</h2>
+      <h5>22.03.25</h5>
+      <p>Everything is back in stock! If you missed out on something over the last few weeks, we now have it again!</p>
+      <p>Hopefully we won't run into this issue again, but please be patient and keep checking back if something is temporarily unavailable again.</p>
+    </div>
+    
+    <div id="third" class="content-section mx-5">
+      <h2>We have launched!</h2>
+      <h5>28.02.25</h5>
+      <p>To celebrate, everything is 20% off! Take advantage of this deal in the first week.</p>
+      <p>We're pretty sure we have enough of everything and won't run out in the first couple days.</p>
+    </div>
+
+</body>
+</html>
